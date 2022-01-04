@@ -6,3 +6,4 @@ if __name__=="__main__":
 
     p2= Pessoa.factory_por_ano_nascimento('Victor Willian', 1998)
     print(p2.idade)
+    print(Pessoa.gerar_id())
